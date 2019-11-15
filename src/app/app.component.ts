@@ -13,7 +13,7 @@ import { UserService } from "./user.service";
     <h1>{{ title }}</h1>
     <app-car></app-car>
     <app-injectors></app-injectors>
-    <app-tests></app-tests>
+    
     <h2>User</h2>
     <p id="user">
       {{ userInfo }}
