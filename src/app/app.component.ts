@@ -7,14 +7,11 @@ import { UserService } from "./user.service";
   selector: "app-root",
   template: `
     <h1>{{ title }}</h1>
-    <app-car></app-car>
   `
   /*
   template: `
     <h1>{{ title }}</h1>
-    <!--
     <app-car></app-car>
-    -->
     <app-injectors></app-injectors>
     <app-tests></app-tests>
     <h2>User</h2>
