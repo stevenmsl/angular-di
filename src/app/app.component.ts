@@ -45,8 +45,9 @@ export class AppComponent {
     return this.userService.user;
   }
   get userInfo() {
-    return;
-    `Current user, ${this.user.name}, is ` +
-      `${this.isAuthorized ? "" : "not"} authorized. `;
+    return (
+      `Current user, ${this.user.name}, is ` +
+      `${this.isAuthorized ? "" : "not"} authorized. `
+    );
   }
 }
