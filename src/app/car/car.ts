@@ -13,7 +13,7 @@ export class Tires {
 export class Car {
   public description = "DI";
 
-  constructor(public engine: Engine, public tires) {}
+  constructor(public engine: Engine, public tires: Tires) {}
 
   // Method using the engine and tires
   drive() {
