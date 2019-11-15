@@ -7,13 +7,9 @@ import { UserService } from "./user.service";
   selector: "app-root",
   template: `
     <h1>{{ title }}</h1>
-  `
-  /*
-  template: `
-    <h1>{{ title }}</h1>
     <app-car></app-car>
     <app-injectors></app-injectors>
-    
+
     <h2>User</h2>
     <p id="user">
       {{ userInfo }}
@@ -24,7 +20,6 @@ import { UserService } from "./user.service";
     <app-heroes-tsp id="tspAuthorized" *ngIf="isAuthorized"></app-heroes-tsp>
     <app-providers></app-providers>
   `
-  */
 })
 export class AppComponent {
   title: string;
